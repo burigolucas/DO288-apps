@@ -69,7 +69,7 @@ components:
       buildContext: .
       rootRequired: false
       uri: docker/Dockerfile
-    imageName: registry.ocp4.example.com:8443/developer/hello-flask
+    imageName: quay.io/lburigo/hello-flask
   name: build
 
 - kubernetes:
