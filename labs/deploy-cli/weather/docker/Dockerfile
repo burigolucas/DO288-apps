@@ -1,4 +1,4 @@
-FROM registry.ocp4.example.com:8443/ubi8/python-39:latest
+FROM registry.access.redhat.com/ubi8/python-39:latest
 
 COPY requirements.txt requirements.txt
 
